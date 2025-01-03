@@ -53,6 +53,17 @@ a {
 
 .tile {
     width: 100%;
+    align-items: center;
+    background-color: rgb(37,37,37);
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile2 {
+    width: 100%;
+    align-items: center;
     background-color: rgb(37,37,37);
     margin: 7px;
     border-radius: 17px;
@@ -61,6 +72,11 @@ a {
 }
 
 .tile:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+}
+
+.tile2:hover {
     transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
     transform: scale(1.02);
 }
@@ -78,12 +94,11 @@ a {
     margin-top: 10px;
 }
 
-
 .image-container {
     height: 96px;
     width: 96px;
-    border-radius: 48px;
-    overflow: hidden;
+    border-radius: 100px;
+    <!--overflow: hidden;-->
 }
 
 .image-container img {
@@ -91,7 +106,9 @@ a {
 }
 
 .icon {
-    margin: 4px 8px;
+    margin: 0px 8px;
     width: 44px;
     height: 44px;
 }
+
+
