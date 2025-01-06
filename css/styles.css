@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Geist;
+    src: url("fonts/Geist-Variable.woff2") format("woff2");
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -7,7 +12,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Geist, Tahoma, sans-serif;
 }
 
 header {
